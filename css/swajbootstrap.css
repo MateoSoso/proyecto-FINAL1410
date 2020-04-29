@@ -1,0 +1,94 @@
+#background { background: url("fondo ppal.png");background-color: #fff;font-family: 'Roboto', sans-serif ;font-size: 120%;}
+
+
+#logo {height: 80%;width: 100%;}
+
+
+.listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase;}
+.listappal li{display: inline-block; text-align: center;padding-right: 10px;}
+.listappal ul {padding: 0 ;}
+.listappal a { text-decoration: none;}
+.listappal a:hover {color:#9B6406}
+.active{color:#AB964A;}
+
+
+.vertical{display: flex;flex-direction: column;justify-content: space-between;}
+.vertical img{padding-left: 10%;padding-bottom: 5%;max-height: 150px }
+.vertical img:hover{transform: scale(1.2);}
+
+#quehacemos {padding: 5%;}
+
+
+.opiniones{padding-top: 10%;}
+.opiniones p{border-right: solid grey 2px}
+.opiniones h5{border-right: solid grey 2px}
+
+
+.footer{ font-size: 90%;font-weight:300;border-top: grey solid 2px;padding-top: 2%;grid-area: footer; display: flex;flex-direction: row;justify-content: space-between;}
+.footer ul{list-style:none;}
+.footer li{text-decoration: none;}
+.footer li{padding-top: 2%}
+#fb img{max-width: 20px;max-height: 20px}
+#ig img{max-width: 20px;max-height: 20px}
+#whap img{max-width: 20px;max-height: 20px}
+#ubi {max-width: 20px;max-height: 20px}
+.tarjetas{max-height:4rem;max-width:10rem }
+
+
+.titulospag { padding: 0PX 0PX 2.5% 0px;background-image: url("fondo titulos.jpg");color: #fff;font-family: 'Courgette', cursive;font-size: 300%;background-repeat: repeat-x ;}
+
+
+ 
+
+ /* pagina pquienes somos*/
+ .quienes {display: grid;grid-template-areas:
+ 											"txta since"
+ 											"txtb txtb"
+ 											;
+										grid-template-columns:3fr 1fr;}
+#txt1{grid-area: txta;padding-left: 5%; padding-right: 5%;}
+#txt2{grid-area: txtb;padding-left: 4%;padding-right: 5%;padding-top: 2%;}
+#since {grid-area: since; padding-top: 5%;padding-left: 5%;padding-right: 5%;}
+
+
+/* pagina productos*/
+
+
+.ptos{padding-left: 5%;padding-right: 5%;}
+
+
+
+.tamano_carousel{height: 20rem;width: 20rem;margin: auto;}
+.tituloprod{color: #82680B;font-size: 150%; padding: 2%;padding-top: 5%;text-align: center;}
+.txtprod{font-weight: 300;font-size: 90%}
+
+.carousel_pequeno{ display: flex;flex-direction: column;justify-content: space-between;align-items: center; }
+
+.imgcar{height: 100%;width: 100%}
+.imgcar img{object-fit: cover; height: 100%;width:100%;}
+
+
+
+
+/* contacto*/
+#contacto {display: flex;flex-direction: column;justify-content: space-around;padding-left: 2%;font-weight: 300}
+#contacto div{padding-left: 2%}
+#contacto input:focus{border:solid 2px blue;}
+
+.tic {height: 20px;width: 20px; padding-left: 4%}
+.tic:hover{transform: scale(1.2);}
+#boton{padding-left: 2%;padding-bottom:2%}
+#boton button:hover {transform: scale(1.5)}
+
+.separacion {display: flex;flex-direction: row;justify-content: space-between;}
+.sino ul{list-style:none;}
+.sino a{text-decoration: none}
+.sino img{max-width: 20px;max-height: 20px}
+
+
+
+/*mayoristas*/
+
+#mayoristas{padding-bottom: 5%;display: flex;flex-direction: row;justify-content: space-between; align-items: baseline; }
+ #txtmayoristas{padding-right: 5%;padding-left: 5%;}
+ #telmayoristas{padding:.5%; border:grey solid 2px;}

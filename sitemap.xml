@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.1410telas.com" >
+	<url>
+		<loc>https://1410telas.com/index/</loc>
+        <priority>1.0<priority>
+		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
+	</url>
+	<url>
+		<loc>https://1410telas.com/productos/</loc>
+		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
+	</url>
+    	<url>
+		<loc>https://1410telas.com/quienessomos/</loc>
+		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
+	</url>
+    	<url>
+		<loc>https://1410telas.com/contacto/</loc>
+		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
+	</url>
+    	<url>
+		<loc>https://1410telas.com/mayoristas/</loc>
+		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
+	</url>
+</urlset>
