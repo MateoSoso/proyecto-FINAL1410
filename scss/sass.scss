@@ -1,7 +1,7 @@
 #background { background: url("fondo ppal.png");background-color: #fff;font-family: 'Roboto', sans-serif ;font-size: 120%;}
 
 
-#logo {height: 81%;width: 100%;}
+#logo {height: 80%;width: 100%;}
 
 
 .listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase;
@@ -22,9 +22,10 @@
 #quehacemos {padding: 5%;}
 
 
-.opiniones{padding-top: 10%;
-	p{border-right: solid grey 2px}
-	h5{border-right: solid grey 2px}}
+.novedades{padding-top: 10%;padding-bottom: 5%;;
+	p{ font-weight: 300;}
+	.nov{border-right: solid grey 2px}
+}
 
 
 
@@ -43,9 +44,10 @@
 .tarjetas{max-height:4rem;max-width:10rem }
 
 
-.titulospag { padding: 0PX 0PX 2.5% 0px;background-image: url("fondo titulos.jpg");color: #fff;font-family: 'Courgette', cursive;font-size: 300%;background-repeat: repeat-x ;}
+.titulospag { padding: 0PX 0PX 6% 0px;background-image: url("fondo titulos.jpg");color: #fff;font-family: 'Courgette', cursive;font-size: 300%;background-repeat: repeat-x ;height: auto;}
 
-
+.titulos{color: #82680B;
+	h3{; padding: 2%;padding-top: 5%;text-align: center;}}
  
 
  /* pagina pquienes somos*/
@@ -67,7 +69,6 @@
 
 
 .tamano_carousel{height: 20rem;width: 20rem;margin: auto;}
-.tituloprod{color: #82680B;font-size: 150%; padding: 2%;padding-top: 5%;text-align: center;}
 .txtprod{font-weight: 300;font-size: 90%}
 
 .carousel_pequeno{ display: flex;flex-direction: column;justify-content: space-between;align-items: center; }
