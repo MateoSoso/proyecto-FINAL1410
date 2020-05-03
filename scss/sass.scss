@@ -1,25 +1,25 @@
-#background { background: url("fondo ppal.png");background-color: #fff;font-family: 'Roboto', sans-serif ;font-size: 120%;}
+#background {background-color: #ffffff;	background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");font-family: 'Roboto', sans-serif ;font-size: 120%;background-color: #fff;}
 
 
-#logo {height: 80%;width: 100%;}
+#logo {height: 40%;width: 100%;}
 
 
-.listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase;
+.listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase;background: rgba(0,0,0,.3); margin-bottom: 2%;
 	li{display: inline-block; text-align: center;padding-right: 10px;}
 	ul {padding: 0 ;}
 	a { text-decoration: none;
-		&:hover {color:#9B6406}}
+		&:hover {color:#AB964A}}
 }
 
-.active{color:#AB964A;}
+.active{color:#82680B;}
 
 
-.vertical{display: flex;flex-direction: column;justify-content: space-between;
-	img{padding-left: 10%;padding-bottom: 5%;max-height: 150px ;&:hover{transform: scale(1.2);}}
+.vertical{display: flex;flex-direction: column;justify-content: space-between;max-width: 180px;
+	img{padding-bottom: 5%;max-width: 150px;max-height: 150px;;&:hover{transform: scale(1.2);}}
 }
 
 
-#quehacemos {padding: 5%;}
+#quehacemos {padding: 1%;}
 
 
 .novedades{padding-top: 10%;padding-bottom: 5%;;
@@ -29,12 +29,17 @@
 
 /* footer y titulos*/
 
-.footer{ font-size: 90%;font-weight:300;border-top: grey solid 2px;padding-top: 2%;grid-area: footer; display: flex;flex-direction: row;justify-content: space-between;
+.footer{ font-size: 90%;font-weight:300;border-top: grey solid 2px;padding-top: 2%;grid-area: footer;background: rgba(0,0,0,.3); display: flex;flex-direction: row;justify-content: space-between;position:initial;left:0%;bottom:0%;right:0%;
 	ul{list-style:none;}
 	li{text-decoration: none;}
 	li{padding-top: 2%}
 }
-.footer_pequeno {font-size: 90%;font-weight:300;border-top: grey solid 2px;padding-top: 2%;grid-area: footer; display: flex;flex-direction: column;justify-content: space-between;
+.footer_pequeno {font-size: 90%;font-weight:300;border-top: grey solid 2px;padding-top: 2%;grid-area: footer; display: flex;flex-direction: column;justify-content: space-between;background: rgba(0,0,0,.3);
+	ul{list-style:none;}
+	li{text-decoration: none;}
+	li{padding-top: 2%}
+}
+.footerfixed{ font-size: 90%;font-weight:300;border-top: grey solid 2px;padding-top: 2%;grid-area: footer;background: rgba(0,0,0,.3); display: flex;flex-direction: row;justify-content: space-between;position:fixed;left:0%;bottom:0%;right:0%;
 	ul{list-style:none;}
 	li{text-decoration: none;}
 	li{padding-top: 2%}
@@ -48,7 +53,7 @@
 .tarjetas{max-height:4rem;max-width:10rem }
 
 
-.titulospag { padding: 0PX 0PX 6% 0px;background-image: url("fondo titulos.jpg");color: #fff;font-family: 'Courgette', cursive;font-size: 300%;background-repeat: repeat-x ;height: auto;}
+.titulospag { padding: 0PX 0PX 6% 0px;background-image: url("fondo titulos.jpg");background-size: cover;color: #fff;font-family: 'Courgette', cursive;font-size: 300%;background-repeat: repeat-x ;height: auto;}
 
 .titulos{color: #82680B;
 	h3{ padding: 2%;padding-top: 5%;text-align: center;}}
@@ -59,7 +64,7 @@
  											"txta since"
  											"txtb txtb"
  											;
-										grid-template-columns:3fr 1fr;}
+										grid-template-columns:3fr 1fr; margin: auto;max-width: 1200px;}
 #txt1{grid-area: txta;padding-left: 5%; padding-right: 5%;}
 #txt2{grid-area: txtb;padding-left: 4%;padding-right: 5%;padding-top: 2%;}
 #since {grid-area: since; padding-top: 5%;padding-left: 5%;padding-right: 5%;}
@@ -86,7 +91,7 @@
 
 
 /* contacto*/
-#contacto {display: flex;flex-direction: column;justify-content: space-around;padding-left: 2%;font-weight: 300;
+#contacto {display: flex;flex-direction: column;justify-content: space-around;padding-left: 2%;font-weight: 300; margin: auto; max-width: 1400px;
 	div{padding-left: 2%}
 	input:focus{border:solid 2px blue;}
 }
@@ -112,7 +117,7 @@
 
 /*mayoristas*/
 
-#mayoristas{padding-bottom: 5%;display: flex;flex-direction: row;justify-content: space-between; align-items: baseline; }
+#mayoristas{padding-bottom: 5%;display: flex;flex-direction: row;justify-content: space-between; align-items: baseline;margin: auto;max-width: 1400px; }
  #txtmayoristas{padding-right: 5%;padding-left: 5%;}
  #telmayoristas{padding:.5%; border:grey solid 2px;}
 
