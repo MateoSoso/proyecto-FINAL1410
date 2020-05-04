@@ -1,24 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.1410telas.com" >
-	<url>
-		<loc>https://1410telas.com/index/</loc>
-        <priority>1.0<priority>
-		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
-	</url>
-	<url>
-		<loc>https://1410telas.com/productos/</loc>
-		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
-	</url>
-    	<url>
-		<loc>https://1410telas.com/quienessomos/</loc>
-		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
-	</url>
-    	<url>
-		<loc>https://1410telas.com/contacto/</loc>
-		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
-	</url>
-    	<url>
-		<loc>https://1410telas.com/mayoristas/</loc>
-		<lastmod>2019-07-31T07:56:12+03:00</lastmod>
-	</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.1410telas.com/</loc>
+  <lastmod>2020-05-04T18:10:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.1410telas.com/index.html</loc>
+  <lastmod>2020-05-04T18:10:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.1410telas.com/quienes.html</loc>
+  <lastmod>2020-05-03T21:37:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.1410telas.com/productos.html</loc>
+  <lastmod>2020-05-03T21:37:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.1410telas.com/contacto.html</loc>
+  <lastmod>2020-05-03T21:37:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.1410telas.com/mayoristas.html</loc>
+  <lastmod>2020-05-03T21:37:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
