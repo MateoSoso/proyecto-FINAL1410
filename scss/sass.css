@@ -451,4 +451,52 @@
 .pag404 article {
   font-weight: 300;
 }
+
+/* faq y ayuda*/
+@media only screen and (min-width: 993px) {
+  .texto {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .texto div {
+    padding: 2%;
+  }
+  .texto .st {
+    border-right: grey 2px solid;
+  }
+  .texto p {
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .texto {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .texto div {
+    padding: 2%;
+  }
+  .texto p {
+    font-weight: 300;
+  }
+}
 /*# sourceMappingURL=sass.css.map */
