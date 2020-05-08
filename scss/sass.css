@@ -115,6 +115,8 @@
   font-weight: 300;
   border-top: grey solid 2px;
   padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
   grid-area: footer;
   background: rgba(0, 0, 0, 0.3);
   display: -webkit-box;
@@ -150,6 +152,8 @@
   font-weight: 300;
   border-top: grey solid 2px;
   padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
   grid-area: footer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,41 +177,6 @@
 }
 
 .footer_pequeno li {
-  padding-top: 2%;
-}
-
-.footerfixed {
-  font-size: 90%;
-  font-weight: 300;
-  border-top: grey solid 2px;
-  padding-top: 2%;
-  grid-area: footer;
-  background: rgba(0, 0, 0, 0.3);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: fixed;
-  left: 0%;
-  bottom: 0%;
-  right: 0%;
-}
-
-.footerfixed ul {
-  list-style: none;
-}
-
-.footerfixed li {
-  text-decoration: none;
-}
-
-.footerfixed li {
   padding-top: 2%;
 }
 
@@ -237,14 +206,10 @@
 }
 
 .titulospag {
-  padding: 0PX 0PX 6% 0px;
-  background-image: url("fondo titulos.jpg");
-  background-size: cover;
-  color: #fff;
   font-family: 'Courgette', cursive;
-  font-size: 300%;
-  background-repeat: repeat-x;
-  height: auto;
+  color: #8D301C;
+  font-weight: 500;
+  grid-area: titulospag;
 }
 
 .titulos {
@@ -258,6 +223,19 @@
 }
 
 /* pagina pquienes somos*/
+.cuerpo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .quienes {
   display: -ms-grid;
   display: grid;
@@ -301,6 +279,10 @@
   padding-right: 5%;
 }
 
+.ptos h1 {
+  padding-left: 45px;
+}
+
 .tamano_carousel {
   height: 20rem;
   width: 20rem;
@@ -310,6 +292,7 @@
 .txtprod {
   font-weight: 300;
   font-size: 90%;
+  padding-top: 5%;
 }
 
 .carousel_pequeno {
@@ -326,6 +309,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.carousel_pequeno h1 {
+  text-align: center;
 }
 
 .imgcar {
@@ -353,12 +340,10 @@
       justify-content: space-around;
   padding-left: 2%;
   font-weight: 300;
-  margin: auto;
-  max-width: 1400px;
-}
-
-#contacto div {
-  padding-left: 2%;
+  margin-left: 5%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 #contacto input:focus {
@@ -372,8 +357,8 @@
 }
 
 .tic:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #boton {
@@ -382,8 +367,12 @@
 }
 
 #boton button:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#boton button {
+  background-color: #8D301C;
 }
 
 .separacion {
@@ -399,17 +388,27 @@
           justify-content: space-between;
 }
 
-.sino ul {
-  list-style: none;
+@media only screen and (max-width: 1053px) {
+  .sino {
+    display: none;
+  }
 }
 
-.sino a {
-  text-decoration: none;
-}
-
-.sino img {
-  max-width: 20px;
-  max-height: 20px;
+@media only screen and (min-width: 1054px) {
+  .sino {
+    position: absolute;
+    right: 5%;
+  }
+  .sino ul {
+    list-style: none;
+  }
+  .sino a {
+    text-decoration: none;
+  }
+  .sino img {
+    max-width: 20px;
+    max-height: 20px;
+  }
 }
 
 /*mayoristas*/
@@ -454,6 +453,10 @@
 
 /* faq y ayuda*/
 @media only screen and (min-width: 993px) {
+  h1 {
+    margin: auto;
+    padding: 2%;
+  }
   .texto {
     margin: auto;
     display: -webkit-box;
@@ -463,9 +466,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .texto div {
     padding: 2%;
@@ -488,9 +490,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .texto div {
     padding: 2%;
@@ -498,5 +499,9 @@
   .texto p {
     font-weight: 300;
   }
+}
+
+.titpreg {
+  padding-left: 2%;
 }
 /*# sourceMappingURL=sass.css.map */
