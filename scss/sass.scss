@@ -1,13 +1,9 @@
+/*background*/
 #background {background-color: #ffffff;	background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");font-family: 'Roboto', sans-serif ;font-size: 120%;background-color: #fff;}
-
-
 #logo {height: 80%;width: 100%; min-height: 80px;}
 
 
-
-
-
-
+/*pag ppal*/
 .vertical{display: flex;flex-direction: column;justify-content: space-between;max-width: 180px;
 	img{padding-bottom: 5%;max-width: 150px;max-height: 150px;;&:hover{transform: scale(1.2);}}
 }
@@ -22,17 +18,20 @@
 }
 
 /* menu, footer y titulos*/
-@media only screen and (min-width: 994px){.listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase;background: rgba(0,0,0,.2); margin-bottom: 2%;
-	li{display: inline-block; text-align: center;padding-right: 10px;}
-	ul {padding: 0 ;}
-	a { text-decoration: none;
-		&:hover {color:#AB964A}}
-}}
-@media only screen and (max-width: 993px){.listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase; margin-bottom: 2%;
-	li{display: inline-block; text-align: center;padding-right: 10px;}
-	ul {padding: 0 ;}
-	a { text-decoration: none;
-		&:hover {color:#AB964A}}}};
+@media only screen and (min-width: 994px){
+	.listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase;background: rgba(0,0,0,.2); margin-bottom: 2%;
+		li{display: inline-block; text-align: center;padding-right: 10px;}
+		ul {padding: 0 ;}
+		a { text-decoration: none;
+			&:hover {color:#AB964A}}}
+		}
+@media only screen and (max-width: 993px)
+	{.listappal { font-family: 'Roboto', sans-serif;font-size:80%;align-content: center;text-transform: uppercase; margin-bottom: 2%;
+		li{display: inline-block; text-align: center;padding-right: 10px;}
+		ul {padding: 0 ;}
+		a { text-decoration: none;
+			&:hover {color:#AB964A}}}
+	};
 
 
 .active{color:#82680B;}
@@ -97,36 +96,31 @@
 
 
 .ptos{padding-left: 5%;padding-right: 5%;
-h1{padding-left: 45px;
-}}
-
+	h1{padding-left: 45px;}
+}
 
 .tamano_carousel{height: 20rem;width: 20rem;margin: auto;}
 .txtprod{font-weight: 300;font-size: 90%;padding-top: 5%;}
 
 .carousel_pequeno{ display: flex;flex-direction: column;justify-content: space-between;align-items: center; 
-	h1{text-align: center;}}
+	h1{text-align: center;}
+}
 
 .imgcar{height: 100%;width: 100%;
 	img{object-fit: cover; height: 100%;width:100%;}
 }
 
-
-
-
-
 /* contacto*/
 
 
 #contacto {display: flex;flex-direction: column;justify-content: space-around;padding-left: 2%;font-weight: 300; margin-left: 5%; align-items: flex-start;
-	
 	input:focus{border:solid 2px blue;}
 }
 
 
 
 .tic {height: 20px;width: 20px; padding-left: 4%;
-&:hover{transform: scale(1.1);}
+	&:hover{transform: scale(1.1);}
 }
 
 #boton{padding-left: 2%;padding-bottom:2%;
@@ -142,9 +136,8 @@ h1{padding-left: 45px;
 	ul{list-style:none;}
 		a{text-decoration: none}
 		img{max-width: 20px;max-height: 20px}
-	}}
-
-
+	}
+}
 
 
 /*mayoristas*/
@@ -154,21 +147,21 @@ h1{padding-left: 45px;
  #telmayoristas{padding:.5%; border:grey solid 2px;}
 
  /* 404*/
- 
- 
  .pag404{div {padding-bottom: 1.5rem;padding-top:1.5rem}
 article{font-weight: 300;}
 }
 
 /* faq y ayuda*/
 
-@media only screen and (min-width: 993px){h1{margin: auto;padding: 2%;};.texto{margin:auto;display: flex;flex-direction: row;justify-content: space-around;
-	div{padding: 2%;}
-	.st{border-right: grey 2px solid;};	
-	p{font-weight: 300;}}}
+@media only screen and (min-width: 993px)
+	{h1{margin: auto;padding: 2%;};.texto{margin:auto;display: flex;flex-direction: row;justify-content: space-around;
+		div{padding: 2%;}
+		.st{border-right: grey 2px solid;};	
+		p{font-weight: 300;}}}
 
 
-	@media only screen and (max-width: 993px){.texto{margin:auto;display: flex;flex-direction: column;justify-content: space-around;
+	@media only screen and (max-width: 993px)
+	{.texto{margin:auto;display: flex;flex-direction: column;justify-content: space-around;
 		div{padding: 2%;};
 		p{font-weight: 300;}}}
 		.titpreg{padding-left: 2%;}
